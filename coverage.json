@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "categories": [
+    {
+      "id": "daily-life",
+      "title": "Everyday life",
+      "parent_id": null,
+      "direct_article_count": 0,
+      "subtree_article_count": 0
+    },
+    {
+      "id": "treatment-decisions",
+      "title": "Treatment decisions",
+      "parent_id": null,
+      "direct_article_count": 0,
+      "subtree_article_count": 1
+    },
+    {
+      "id": "procedures",
+      "title": "Procedures & injections",
+      "parent_id": "treatment-decisions",
+      "direct_article_count": 1,
+      "subtree_article_count": 1
+    },
+    {
+      "id": "recovery",
+      "title": "Recovery & rehabilitation",
+      "parent_id": null,
+      "direct_article_count": 0,
+      "subtree_article_count": 0
+    }
+  ],
+  "articles": [
+    {
+      "id": "084ca0b838faa41d0c11",
+      "slug": "pulsed-radiofrequency-for-back-or-leg-pain-questions-before-treatment",
+      "category_id": "procedures",
+      "tags": [],
+      "title": "Pulsed radiofrequency for back or leg pain: questions before treatment"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://thespinecompanion.github.io/sitemap.xml
