@@ -1,43 +1,310 @@
 {
   "schema_version": 1,
-  "revision": 1,
+  "revision": 2,
   "categories": [
+    {
+      "id": "treatment-decisions",
+      "title": "Symptoms & decisions",
+      "parent_id": null,
+      "direct_article_count": 0,
+      "subtree_article_count": 4
+    },
+    {
+      "id": "understanding-findings",
+      "title": "Understanding findings",
+      "parent_id": "treatment-decisions",
+      "direct_article_count": 2,
+      "subtree_article_count": 2
+    },
+    {
+      "id": "weighing-options",
+      "title": "Weighing options",
+      "parent_id": "treatment-decisions",
+      "direct_article_count": 2,
+      "subtree_article_count": 2
+    },
     {
       "id": "daily-life",
       "title": "Everyday life",
       "parent_id": null,
       "direct_article_count": 0,
-      "subtree_article_count": 0
+      "subtree_article_count": 4
     },
     {
-      "id": "treatment-decisions",
-      "title": "Treatment decisions",
+      "id": "rest-routines",
+      "title": "Rest & routines",
+      "parent_id": "daily-life",
+      "direct_article_count": 2,
+      "subtree_article_count": 2
+    },
+    {
+      "id": "work-independence",
+      "title": "Work & independence",
+      "parent_id": "daily-life",
+      "direct_article_count": 2,
+      "subtree_article_count": 2
+    },
+    {
+      "id": "rehabilitation",
+      "title": "Movement & rehabilitation",
       "parent_id": null,
       "direct_article_count": 0,
-      "subtree_article_count": 1
+      "subtree_article_count": 4
+    },
+    {
+      "id": "therapy-choices",
+      "title": "Therapy choices",
+      "parent_id": "rehabilitation",
+      "direct_article_count": 2,
+      "subtree_article_count": 2
+    },
+    {
+      "id": "returning-activity",
+      "title": "Returning to activity",
+      "parent_id": "rehabilitation",
+      "direct_article_count": 2,
+      "subtree_article_count": 2
+    },
+    {
+      "id": "medicines-procedures",
+      "title": "Medicines & procedures",
+      "parent_id": null,
+      "direct_article_count": 0,
+      "subtree_article_count": 4
+    },
+    {
+      "id": "medication-injections",
+      "title": "Medication & injections",
+      "parent_id": "medicines-procedures",
+      "direct_article_count": 2,
+      "subtree_article_count": 2
     },
     {
       "id": "procedures",
-      "title": "Procedures & injections",
-      "parent_id": "treatment-decisions",
-      "direct_article_count": 1,
-      "subtree_article_count": 1
+      "title": "Pain procedures",
+      "parent_id": "medicines-procedures",
+      "direct_article_count": 2,
+      "subtree_article_count": 2
     },
     {
       "id": "recovery",
-      "title": "Recovery & rehabilitation",
+      "title": "Surgery & recovery",
       "parent_id": null,
       "direct_article_count": 0,
-      "subtree_article_count": 0
+      "subtree_article_count": 4
+    },
+    {
+      "id": "preparing-home",
+      "title": "Preparing home",
+      "parent_id": "recovery",
+      "direct_article_count": 2,
+      "subtree_article_count": 2
+    },
+    {
+      "id": "changes-after-surgery",
+      "title": "Changes after surgery",
+      "parent_id": "recovery",
+      "direct_article_count": 2,
+      "subtree_article_count": 2
     }
   ],
   "articles": [
+    {
+      "id": "backfill-202611-mri-and-symptoms",
+      "slug": "when-your-spine-mri-and-your-symptoms-seem-to-tell-different-stories",
+      "category_id": "understanding-findings",
+      "tags": [
+        "treatment-decisions",
+        "understanding-findings"
+      ],
+      "title": "When your spine MRI and your symptoms seem to tell different stories"
+    },
+    {
+      "id": "backfill-202611-bone-health-before-fusion",
+      "slug": "osteopenia-and-spinal-fusion-getting-a-clear-bone-health-plan",
+      "category_id": "understanding-findings",
+      "tags": [
+        "treatment-decisions",
+        "understanding-findings"
+      ],
+      "title": "Osteopenia and spinal fusion: getting a clear bone-health plan"
+    },
+    {
+      "id": "backfill-202611-comparing-spine-surgery-opinions",
+      "slug": "when-spine-surgeons-recommend-different-operations-how-to-compare-the-plans",
+      "category_id": "weighing-options",
+      "tags": [
+        "treatment-decisions",
+        "weighing-options"
+      ],
+      "title": "When spine surgeons recommend different operations: how to compare the plans"
+    },
+    {
+      "id": "backfill-202611-regenerative-treatment-sales-questions",
+      "slug": "before-paying-for-a-regenerative-spine-treatment-questions-to-take-home",
+      "category_id": "weighing-options",
+      "tags": [
+        "treatment-decisions",
+        "weighing-options"
+      ],
+      "title": "Before paying for a regenerative spine treatment: questions to take home"
+    },
+    {
+      "id": "backfill-202611-sleep-with-spine-pain",
+      "slug": "when-back-or-leg-pain-keeps-interrupting-your-sleep",
+      "category_id": "rest-routines",
+      "tags": [
+        "daily-life",
+        "rest-routines"
+      ],
+      "title": "When back or leg pain keeps interrupting your sleep"
+    },
+    {
+      "id": "backfill-202611-pacing-errands",
+      "slug": "planning-errands-when-spine-pain-makes-your-energy-unpredictable",
+      "category_id": "rest-routines",
+      "tags": [
+        "daily-life",
+        "rest-routines"
+      ],
+      "title": "Planning errands when spine pain makes your energy unpredictable"
+    },
+    {
+      "id": "backfill-202611-work-adjustments",
+      "slug": "working-with-spine-pain-turn-light-duty-into-a-usable-plan",
+      "category_id": "work-independence",
+      "tags": [
+        "daily-life",
+        "work-independence"
+      ],
+      "title": "Working with spine pain: turn \u201clight duty\u201d into a usable plan"
+    },
+    {
+      "id": "backfill-202611-mobility-aid-adjustment",
+      "slug": "a-cane-or-walker-can-feel-like-a-big-change-making-it-fit-your-life",
+      "category_id": "work-independence",
+      "tags": [
+        "daily-life",
+        "work-independence"
+      ],
+      "title": "A cane or walker can feel like a big change: making it fit your life"
+    },
+    {
+      "id": "backfill-202611-physical-therapy-goals",
+      "slug": "physical-therapy-for-spine-pain-what-are-we-trying-to-change",
+      "category_id": "therapy-choices",
+      "tags": [
+        "rehabilitation",
+        "therapy-choices"
+      ],
+      "title": "Physical therapy for spine pain: what are we trying to change?"
+    },
+    {
+      "id": "backfill-202611-pool-therapy",
+      "slug": "thinking-about-pool-therapy-for-back-pain-plan-beyond-the-water",
+      "category_id": "therapy-choices",
+      "tags": [
+        "rehabilitation",
+        "therapy-choices"
+      ],
+      "title": "Thinking about pool therapy for back pain? Plan beyond the water"
+    },
+    {
+      "id": "backfill-202611-returning-to-sport-after-neck-fusion",
+      "slug": "returning-to-sport-after-neck-fusion-ask-about-the-game-you-actually-play",
+      "category_id": "returning-activity",
+      "tags": [
+        "rehabilitation",
+        "returning-activity"
+      ],
+      "title": "Returning to sport after neck fusion: ask about the game you actually play"
+    },
+    {
+      "id": "backfill-202611-tracking-functional-progress",
+      "slug": "beyond-a-pain-score-keep-a-short-record-of-what-daily-life-is-like",
+      "category_id": "returning-activity",
+      "tags": [
+        "rehabilitation",
+        "returning-activity"
+      ],
+      "title": "Beyond a pain score: keep a short record of what daily life is like"
+    },
+    {
+      "id": "backfill-202611-nerve-pain-medication-review",
+      "slug": "is-your-nerve-pain-medicine-helping-your-day-preparing-for-a-medication-review",
+      "category_id": "medication-injections",
+      "tags": [
+        "medicines-procedures",
+        "medication-injections"
+      ],
+      "title": "Is your nerve-pain medicine helping your day? Preparing for a medication review"
+    },
+    {
+      "id": "backfill-202611-epidural-injection-expectations",
+      "slug": "an-epidural-injection-for-sciatica-what-would-worthwhile-relief-look-like",
+      "category_id": "medication-injections",
+      "tags": [
+        "medicines-procedures",
+        "medication-injections"
+      ],
+      "title": "An epidural injection for sciatica: what would worthwhile relief look like?"
+    },
+    {
+      "id": "backfill-202611-spinal-cord-stimulator-trial",
+      "slug": "before-a-spinal-cord-stimulator-trial-define-success-in-everyday-terms",
+      "category_id": "procedures",
+      "tags": [
+        "medicines-procedures",
+        "procedures"
+      ],
+      "title": "Before a spinal cord stimulator trial: define success in everyday terms"
+    },
     {
       "id": "084ca0b838faa41d0c11",
       "slug": "pulsed-radiofrequency-for-back-or-leg-pain-questions-before-treatment",
       "category_id": "procedures",
       "tags": [],
       "title": "Pulsed radiofrequency for back or leg pain: questions before treatment"
+    },
+    {
+      "id": "backfill-202611-bathroom-setup-after-spine-surgery",
+      "slug": "planning-your-bathroom-before-spine-surgery-a-setup-that-fits-your-home",
+      "category_id": "preparing-home",
+      "tags": [
+        "recovery",
+        "preparing-home"
+      ],
+      "title": "Planning your bathroom before spine surgery: a setup that fits your home"
+    },
+    {
+      "id": "backfill-202611-ice-packs-or-cooling-machine",
+      "slug": "ice-packs-or-a-cooling-machine-after-spinal-fusion-what-to-decide-before-buying",
+      "category_id": "preparing-home",
+      "tags": [
+        "recovery",
+        "preparing-home"
+      ],
+      "title": "Ice packs or a cooling machine after spinal fusion: what to decide before buying"
+    },
+    {
+      "id": "backfill-202611-leg-pain-after-microdiscectomy",
+      "slug": "leg-pain-after-microdiscectomy-how-to-get-a-useful-follow-up-assessment",
+      "category_id": "changes-after-surgery",
+      "tags": [
+        "recovery",
+        "changes-after-surgery"
+      ],
+      "title": "Leg pain after microdiscectomy: how to get a useful follow-up assessment"
+    },
+    {
+      "id": "backfill-202611-posture-changes-years-after-fusion",
+      "slug": "leaning-forward-years-after-spinal-fusion-preparing-for-a-reassessment",
+      "category_id": "changes-after-surgery",
+      "tags": [
+        "recovery",
+        "changes-after-surgery"
+      ],
+      "title": "Leaning forward years after spinal fusion: preparing for a reassessment"
     }
   ]
 }
